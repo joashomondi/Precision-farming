@@ -32,7 +32,7 @@ The app requires the following version of Python to be installed:
 
 To install the app, simply clone the repository:
 
-`git clone [https://github.com/kerry407/precision-farming.git](https://github.com/klusterthon-group-175/precision-farming.git)`
+`git clone https://github.com/klusterthon-group-175/precision-farming.git`
 
 Create a virtual environment for the Django app:
 
