@@ -24,7 +24,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     date_joined = models.DateTimeField(default=timezone.now)
     is_staff = models.BooleanField(default=False)
     is_active = models.BooleanField(default=False)
-    is_verified = models.BooleanField(default=False)
+    is_verified = models.BooleanField(default=True)
     
     objects = CustomUserManager()
     USERNAME_FIELD = 'email'
@@ -33,9 +33,5 @@ class User(AbstractBaseUser, PermissionsMixin):
     def __str__(self):
         return self.first_name + ' ' + self.last_name
     
-    def save(self, *args, **kwargs):
-        if self.is_superuser:
-            self.is_verified = True 
-        return super().save(*args, **kwargs)
     
     
