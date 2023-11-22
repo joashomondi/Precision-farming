@@ -23,11 +23,10 @@ To get started with the project, follow these steps:
 
 ## Requirements
 
-The app requires the following to be installed:
+The app requires the following version of Python to be installed:
 
 * Python 3.x
-* Django 3.x
-* Paystack API
+  
 
 ## Installation
 
