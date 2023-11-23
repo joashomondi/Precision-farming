@@ -8,8 +8,8 @@ import uuid
 
 
 class TrackObjectStateMixin(models.Model):
-    id = models.UUIDField(default=uuid.uuid4, editable=False)
-    date_created = models.DateTimeField(auto_now_add=True)
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    date_created = models.DateTimeField(default=timezone.now)
     last_updated = models.DateTimeField(auto_now=True)
     
     class Meta:

@@ -44,9 +44,11 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_rest_passwordreset',
     'drf_yasg',
+    'django_filters',
     
     # local apps
-    'authentication'
+    'authentication',
+    'farm'
 ]
 
 
@@ -117,6 +119,18 @@ SIMPLE_JWT = {
     # "ROTATE_REFRESH_TOKENS": True,
     'ACCESS_TOKEN_LIFETIME': timedelta(days=14),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=30),
+}
+
+# swagger settings
+SWAGGER_SETTINGS = {
+    "SECURITY_DEFINITIONS": {
+        "Bearer": {
+            "name": "Authorization",
+            "type": "apiKey",
+            "in": "header",
+        }
+    },
+    "USE_SESSION_AUTH": False,
 }
 
 
