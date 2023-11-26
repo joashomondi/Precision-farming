@@ -39,7 +39,7 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
     
     def validate(self, attrs: Dict[str, str]) -> Dict[str, Any]:
         data = super().validate(attrs)
-        if not self.user.is_verified and self.user.is_active:
+        if not self.user.is_verified:
             raise serializers.ValidationError(
                                                 {
                                                  'detail': 'The email of this user must be verified to perform any action'
