@@ -72,15 +72,4 @@ class CropdataAPIViewset(AutoPrefetchViewSetMixin, ModelViewSet):
             self.permission_classes = [permissions.AllowAny]
         return super().get_permissions()
     
-    
-    def perform_create(self, serializer):
-        crop = CropData.objects.filter(farm__owner=self.request.user)     
-        if not crop.exists():
-            serializer.save()
-        else:
-            raise ValidationError(
-                                    {
-                                    "detail": "A Crop with this name has been added to this Farm"
-                                    }
-                                )
             

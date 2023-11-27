@@ -23,6 +23,9 @@ class CropData(TrackObjectStateMixin):
     harvest_date = models.DurationField(null=True)
     farm = models.ForeignKey(FarmData, on_delete=models.CASCADE)
     
+    class Meta:
+        unique_together = ('name', 'farm')
+    
 
     def __str__(self):
         return f"{self.name} - {self.variety}"

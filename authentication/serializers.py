@@ -63,11 +63,7 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         )
         return data 
     
-    
-class ChangePasswordSerializer(serializers.Serializer):
-    token = serializers.CharField(required=True)
-    old_password = serializers.CharField(required=True)
-    new_password = serializers.CharField(required=True)
+
     
     
     

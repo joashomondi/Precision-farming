@@ -15,7 +15,6 @@ drf-yasg==1.21.7
 idna==3.4
 inflection==0.5.1
 jmespath==1.0.1
-    mailchimp-transactional==1.0.47
 packaging==23.2
 PyJWT==2.8.0
 python-dateutil==2.8.2
