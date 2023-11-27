@@ -1,6 +1,7 @@
 from .base import *
 import dj_database_url
 
+
 DEBUG = True 
 
 
@@ -10,6 +11,7 @@ ALLOWED_HOSTS = ["precisionfarming.onrender.com"]
 MIDDLEWARE.insert(1, "whitenoise.middleware.WhiteNoiseMiddleware")
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
+
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases

@@ -1,5 +1,4 @@
 from .base import *
-import os 
 # you need to set "myproject = 'prod'" as an environment variable
 # in your OS (on which your website is hosted)
 # if config("DEVELOPMENT_STATE") == 'True':
