@@ -129,7 +129,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:5173',
     # hosting domain
     'https://precisionfarming.onrender.com',
-    'https://precision-farmng-frontend.vercel.app'
+    'https://precision-farming-frontend.vercel.app'
 ]
 
 CORS_ORIGIN_WHITELIST = [
@@ -140,7 +140,7 @@ CORS_ORIGIN_WHITELIST = [
     'http://127.0.0.1:5173',
     # hosting domain
     'https://precisionfarming.onrender.com',
-    'https://precision-farmng-frontend.vercel.app'
+    'https://precision-farming-frontend.vercel.app'
 ]
 
 CORS_ALLOW_HEADERS = [

@@ -6,7 +6,7 @@ from .base import *
 # else:
 #    from .prod import *
    
-if os.getenv('DJANGO_DEVELOPMENT') == 'true':
+if os.getenv('DJANGO_DEVELOPMENT'):
    from .dev import *
 else:
    from .prod import *
