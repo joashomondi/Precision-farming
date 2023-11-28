@@ -12,6 +12,7 @@ MIDDLEWARE.insert(1, "whitenoise.middleware.WhiteNoiseMiddleware")
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 
+STATICFILES_DIRS = []
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
