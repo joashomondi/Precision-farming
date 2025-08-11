@@ -2,9 +2,9 @@
 This GitHub repository hosts the codebase for a precision farming project aimed at achieving the best product results with data-driven insights. The project is aligned with the problem statement outlined in precision-farming-for-best-product-results-with-data.
 
 # Problem Statement
-Precision farming involves the use of data and technology to optimize various aspects of agriculture, with the ultimate goal of improving crop yield and quality. The problem statement provided by Kluster Africa outlines challenges and opportunities in the domain, and this project seeks to address them through the implementation of a precision farming solution.
+Precision farming involves the use of data and technology to optimize various aspects of agriculture, with the ultimate goal of improving crop yield and quality. The problem statement provided by Joash Omondi outlines challenges and opportunities in the domain, and this project seeks to address them through the implementation of a precision farming solution.
 
-For more details on the problem statement, please refer to Kluster Africa Problem Statements.
+For more details on the problem statement, please refer to Joash Omondi Problem Statements.
 
 # Project Overview
 The project is implemented using Python, Django, and Django Rest Framework on the Server-side and React on the Client-side. As of now, the focus has been on developing the authentication part of the API backend. This includes user authentication and authorization mechanisms to ensure secure access to the precision farming platform.
@@ -72,6 +72,6 @@ We welcome contributions to enhance and expand the functionality of the precisio
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 # Acknowledgments
-We would like to express our gratitude to Kluster Africa for providing the problem statement that inspired this project. Additionally, we appreciate the open-source community for their valuable contributions and support.
+We would like to express our gratitude to Joash Omondi for providing the problem statement that inspired this project. Additionally, we appreciate the open-source community for their valuable contributions and support.
 
 Feel free to explore the codebase, report issues, and contribute to the project. Happy coding!
