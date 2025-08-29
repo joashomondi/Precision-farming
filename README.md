@@ -148,7 +148,6 @@ We welcome contributions to enhance and expand the functionality of the precisio
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 # Acknowledgments
-We would like to express our gratitude to Joash Omondi for providing the problem statement that inspired this project. Additionally, we appreciate the open-source community for their valuable contributions and support.
+We would like to express our gratitude to Geosoft Solutions for providing the problem statement that inspired this project. Additionally, we appreciate the open-source community for their valuable contributions and support.
 
-Feel free to explore the codebase, report issues, and contribute to the project. Happy coding!
->>>>>>> 2e7991ce1a48b7414b63823f94e92543f1754dd8
+
